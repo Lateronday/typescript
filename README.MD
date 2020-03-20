@@ -5,7 +5,7 @@
 
 ### 2.安装全局 typescript tslint
 
-​	`npm install typescript tslint`
+​	`npm install typescript tslint` -g
 
 ### 3. 初始化ts文件
 
@@ -27,16 +27,18 @@
   "author": "",
   "license": "MIT",
   "devDependencies": {
-    "clean-webpack-plugin": "^3.0.0",
-    "cross-env": "^7.0.2",
-    "html-webpack-plugin": "^3.2.0",
-    "ts-loader": "^6.2.1",
+    "clean-webpack-plugin": "^3.0.0",	//清楚临时编译文件
+    "cross-env": "^7.0.2",	//传入环境参数
+    "html-webpack-plugin": "^3.2.0",	//自定义模板编译
+    "ts-loader": "^6.2.1",	//ts源码编译为js
     "typescript": "^3.8.3",
     "webpack": "^4.42.0",
     "webpack-cli": "^3.3.11",
     "webpack-dev-server": "^3.10.3"
   }
 ```
+
+​	`npm install cross-env clean-webpack-plugin html-webpack-plugin ts-loader -D`
 
 ### 5.安装webpack
 
@@ -94,6 +96,8 @@ module.exports = {
     ]
 };
 ```
+
+​	`npm install typescript -D`
 
 ### 7.开始运行
 

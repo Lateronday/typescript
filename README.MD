@@ -5,7 +5,7 @@
 
 ### 2.安装全局 typescript tslint
 
-​	`npm install typescript tslint` -g
+​	`npm install typescript tslint -g`
 
 ### 3. 初始化ts文件
 
